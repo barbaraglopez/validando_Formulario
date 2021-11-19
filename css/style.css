@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 149, 208);
+    
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: white;
+    width: 20%;
+    border-radius: 10px;
+}
+
+form{
+    padding: 20px;
+}
+
+.d-none{
+    display: none;
+}
+
+.success{
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px;
+    border:5px double green;
+    color: green;
+    width: 20%;
+    height: 20%;
+    background-color: white;
+}
+
+.error{
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px;
+    border:5px double red;
+    color: red;
+    width: 20%;
+    height: 20%;
+    background-color: white;
+}
